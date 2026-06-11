@@ -56,3 +56,35 @@ The following analysis were performed
 5. Gender Distribution
 6. Age Distribution
 7. Interest Distribution
+8. Correlation Analysis
+9. Cluster Visualization using PCA
+
+#### Data Preprocessing
+
+##### Missing Value Treament
+* Age: Missing value replaced using Median
+* Gender: Missing values replaced using Mode
+
+##### Data Type Conversion
+* Age converted from string to numeric format
+
+##### Duplicate Removal
+* Duplicate records were identified and removed.
+  
+##### Skewness Analysis
+* Numerical features were analyzed for skewness.
+* Log Transformation applied to highly skewed features where required.
+  
+##### Outlier Detection
+* IQR (Interquartile Range) Method used for outlier detection.
+  
+##### Feature Scaling
+* StandardScaler applied to normalize feature values before clustering.
+
+
+
+
+
+
+
+
